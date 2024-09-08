@@ -6,16 +6,16 @@ def clear():
 def balik():
     f=input("\t[enter to back]")
     if f == "":
-       os.system("python spam.py")
+       os.system("python2 spam-wa.py")
     else:
        sys.exit()
 def baner():
     print ('''
 \tALL SPAM OTP
 \t------------
-\nCreator:Fahmiapz 
-Youtube: Knifer12
-Github : github.com/BladeKnife
+\nCreator:Abizarhacker
+Youtube: private
+Github : private
 ==========================================''')
 def kata(s):
     for c in s + "\n":
